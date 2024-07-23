@@ -14,52 +14,52 @@
 <body>
     <nav>
         <div class="navbar section-center">
-            <i class="fas fa-bars bx bx-menu"></i>
-            <div class="logo"><a href="#"><i class="fas fa-square logo-icon"></i> <i
-                        class="fas fa-square white  logo-icon"></i>SDASDR</a></div>
+            <i class="fas fa-bars bx bx-menu" role="button"></i>
+            <div class="logo"><a href="#home"><i class="fas fa-square logo-icon"></i> <i
+                        class="fas fa-square white  logo-icon"></i> SDASDR</a></div>
             <div class="nav-links">
                 <div class="sidebar-logo">
                     <span class="logo-name">SDASDR</span>
-                    <i class="fas fa-times bx bx-x"></i>
+                    <i class="fas fa-times bx bx-x" role="button"></i>
                 </div>
                 <ul class="links">
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="#home">HOME</a></li>
                     <li>
-                        <a href="#">SERVICES</a>
+                        <a href="#service">SERVICES</a>
                         <i class='bx bxs-chevron-down js-arrow arrow fas fa-sort-down '></i>
 
                         <ul class="htmlCss-sub-menu sub-menu">
-                            <li><a href="#">Web Design</a></li>
-                            <li><a href="#">Login Forms</a></li>
-                            <li><a href="#">Card Design</a></li>
+                            <li><a href="#service">Web Design</a></li>
+                            <li><a href="#service">Login Forms</a></li>
+                            <li><a href="#service">Card Design</a></li>
                             <li class="more">
-                                <span><a href="#">More</a>
-                                    <i class="fas fa-angle-right"></i>
+                                <span><a href="#" role="button">More</a>
+                                    <i class="fas fa-angle-left htmlcss-arrow more-arrow"></i>
                                 </span>
                                 <ul class="more-sub-menu sub-menu">
-                                    <li><a href="#">Neumorphism</a></li>
-                                    <li><a href="#">Pre-loader</a></li>
-                                    <li><a href="#">Glassmorphism</a></li>
+                                    <li><a href="#service">Neumorphism</a></li>
+                                    <li><a href="#service">Pre-loader</a></li>
+                                    <li><a href="#service">Glassmorphism</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">PROJECT</a>
+                        <a href="#project">PROJECT</a>
                         <i class='bx bxs-chevron-down js-arrow arrow fas fa-sort-down '></i>
                         <ul class="js-sub-menu sub-menu">
-                            <li><a href="#">project analysis</a></li>
-                            <li><a href="#">project analysis</a></li>
-                            <li><a href="#">project analysis</a></li>
-                            <li><a href="#">Complete Website</a></li>
+                            <li><a href="#project">project analysis</a></li>
+                            <li><a href="#project">project analysis</a></li>
+                            <li><a href="#project">project analysis</a></li>
+                            <li><a href="#project">Complete Website</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
                 </ul>
             </div>
             <div class="search-box">
-                <i class="bx bx-search fas fa-search"></i>
+                <i role="button" class="bx bx-search fas fa-search"></i>
                 <div class="input-box">
                     <input type="text" placeholder="Search...">
                 </div>
@@ -67,13 +67,13 @@
         </div>
     </nav>
 
-    <header class="header">
+    <header class="header" id="home">
         <div class="banner-container section-center">
 
             <div class="banner-img">
                 <img src="./assets/images/banner-img.png" alt="banner img">
             </div>
-            <div class="banner-info">
+            <div class="banner-info" role="banner">
                 <div class="banner-title">
                     best design <br> creative agency
                     <span class="span one"></span>
@@ -92,7 +92,7 @@
 
 
 
-    <section class="services">
+    <section class="services" id="service">
         <p class="type-title">our service</p>
         <h2 class="section-title">WE SHAPE THE PERFECT SOLUTION</h2>
         <div class="services-container section-center">
@@ -128,7 +128,7 @@
     </section>
 
 
-    <section class="projects">
+    <section class="projects" id="project">
         <p class="type-title">works</p>
         <h2 class="section-title">our best projects</h2>
         <div class="projects-container">
@@ -175,9 +175,12 @@
     </section>
 
 
-    <section class="pricings">
+    <section class="pricings" id="pricing">
         <p class="type-title">pricing plan</p>
-        <h2 class="section-title">our best projects</h2>
+        <h2 class="section-title">our pricing</h2>
+        <button class="prev-btn slide-btn ">
+            <i class="fas fa-arrow-alt-circle-left"></i> </button>
+        <button class="next-btn slide-btn"><i class="fas fa-arrow-alt-circle-right"></i></button>
         <div class="pricings-container section-center">
 
             <div class="pricing">
@@ -185,7 +188,7 @@
                 <p class="small-text">roofing charge path riving brace </p>
 
                 <p class="price"> <sup>$</sup>25.99 <span>/ month</span></p>
-                <p class="call">buy this</p>
+                <p class="call" role="button">buy this</p>
 
                 <ul>
                     <li class="small-text"><span class="price-icon">✔</span>Lorem ipsum dolor sit.</li>
@@ -200,7 +203,7 @@
                 <p class="small-text">roofing charge path riving brace </p>
 
                 <p class="price"> <sup>$</sup>25.99 <span>/ month</span></p>
-                <p class="call">buy this</p>
+                <p class="call" role="button">buy this</p>
 
                 <ul>
                     <li class="small-text"><span class="price-icon">✔</span>Lorem ipsum dolor sit.</li>
@@ -215,7 +218,7 @@
                 <p class="small-text">roofing charge path riving brace </p>
 
                 <p class="price"> <sup>$</sup>25.99 <span>/ month</span></p>
-                <p class="call">buy this</p>
+                <p class="call" role="button">buy this</p>
 
                 <ul>
                     <li class="small-text"><span class="price-icon">✔</span>Lorem ipsum dolor sit.</li>
@@ -228,20 +231,23 @@
 
         </div>
 
+        <p class="slides">
+            <span class="slide active"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+        </p>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
+        <p class="type-title">about us</p>
+        <h2 class="section-title">how we build projects</h2>
         <div class="about-container section-center">
-            <p class="type-title">about us</p>
-            <h2 class="section-title">how we build projects</h2>
+
             <div class="about-img">
                 <img src="./assets/images/project-img-1.png" alt="about img">
             </div>
             <div class="about-info">
-                <div class="section-title">
-                    best design creative agency
-
-                </div>
+                <p class="section-title ">best design creative agency</p>
                 <p class="text">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. A assumenda vel repellendus quos impedit.
                     Aliquid cupiditate delectus harum quisquam quibusdam?
@@ -277,7 +283,7 @@
             </div>
         </div>
     </section>
-    <section class="newses">
+    <section class="newses" id="news">
         <p class="type-title">lasts news</p>
         <h2 class="section-title">lasts news about company</h2>
         <div class="newses-container section-center">
@@ -300,7 +306,7 @@
             </div>
             <div class="news">
                 <div class="news-img">
-                    <img src="./assets/images/news-img-2.png" alt="news img">
+                    <img src="./assets/images/news-img-2.png" alt="news img" role="button">
                 </div>
                 <div class="news-info">
                     <div class="news-icons">
@@ -315,7 +321,7 @@
             </div>
             <div class="news">
                 <div class="news-img">
-                    <img src="./assets/images/news-img-3.png" alt="news img">
+                    <img src="./assets/images/news-img-3.png" alt="news img" role="button">
                 </div>
                 <div class="news-info">
                     <div class="news-icons">
@@ -332,7 +338,7 @@
     </section>
 
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact-title">
             <h3 class="section-title">
                 let`s build something with agency
@@ -352,43 +358,43 @@
             <div class="list">
                 <p class="list-title">our service</p>
                 <ul>
-                    <li><a href="">single play roofing</a></li>
-                    <li><a href="">modified roofing</a></li>
-                    <li><a href="">built-up roofing</a></li>
-                    <li><a href="">metal roofing</a></li>
-                    <li><a href="">vegetative roofing</a></li>
-                    <li><a href="">modified roofing</a></li>
-                    <li><a href="">specialty metal</a></li>
+                    <li><a href="#" role="button">single play roofing</a></li>
+                    <li><a href="#" role="button">modified roofing</a></li>
+                    <li><a href="#" role="button">built-up roofing</a></li>
+                    <li><a href="#" role="button">metal roofing</a></li>
+                    <li><a href="#" role="button">vegetative roofing</a></li>
+                    <li><a href="#" role="button">modified roofing</a></li>
+                    <li><a href="#" role="button">specialty metal</a></li>
                 </ul>
 
             </div>
             <div class="list">
                 <p class="list-title">use full links</p>
                 <ul>
-                    <li><a href="">term and condition</a></li>
-                    <li><a href="">tax and policy</a></li>
-                    <li><a href="">refund policy</a></li>
-                    <li><a href="">typical situation</a></li>
-                    <li><a href="">our process</a></li>
-                    <li><a href="">refund policy</a></li>
-                    <li><a href="">contact us</a></li>
+                    <li><a href="#" role="button">term and condition</a></li>
+                    <li><a href="#" role="button">tax and policy</a></li>
+                    <li><a href="#" role="button">refund policy</a></li>
+                    <li><a href="#" role="button">typical situation</a></li>
+                    <li><a href="#" role="button">our process</a></li>
+                    <li><a href="#" role="button">refund policy</a></li>
+                    <li><a href="#" role="button">contact us</a></li>
                 </ul>
             </div>
             <div class="list">
                 <p class="list-title">news letter</p>
                 <ul>
-                    <li><a href="">subscribe our news letter to get our letter</a></li>
-                    <li><a href=""> updates and news</a></li>
+                    <li><a href="" role="button">subscribe our news letter to get our letter</a></li>
+                    <li><a href="" role="button"> updates and news</a></li>
                 </ul>
                 <div class="subscription-input">
                     <input type="email" placeholder="enter your email address">
                 </div>
 
                 <div class="footer-icons">
-                    <span class="icon"><i class="fas fa-phone"></i></span>
-                    <span class="icon"><i class="fab fa-twitter"></i></span>
-                    <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
-                    <span class="icon"><i class="fas fa-envelope"></i></span>
+                    <span class="icon"><i role="button" class="fas fa-phone"></i></span>
+                    <span class="icon"><i role="button" class="fab fa-twitter"></i></span>
+                    <span class="icon"><i role="button" class="fas fa-map-marker-alt"></i></span>
+                    <span class="icon"><i role="button" class="fas fa-envelope"></i></span>
                 </div>
             </div>
         </div>
